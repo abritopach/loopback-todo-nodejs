@@ -1,7 +1,7 @@
 {
-  "name": "todo",
+  "name": "category",
   "forceId": false,
-  "plural": "todos",
+  "plural": "categories",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -12,26 +12,13 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "string",
-      "required": true
-    },
-    "priority": {
-      "type": "number",
-      "required": true
-    },
-    "status": {
+    "name": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
-  "relations": {
-    "categories": {
-      "type": "hasAndBelongsToMany",
-      "model": "category"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

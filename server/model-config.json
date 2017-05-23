@@ -36,7 +36,11 @@
     "public": false
   },
   "todo": {
-    "dataSource": "db",
+    "dataSource": "todo",
+    "public": true
+  },
+  "category": {
+    "dataSource": "todo",
     "public": true
   }
 }

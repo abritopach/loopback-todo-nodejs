@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "todo": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "todo",
+    "password": "",
+    "name": "todo",
+    "user": "",
+    "connector": "mongodb"
   }
 }
