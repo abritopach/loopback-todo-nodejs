@@ -1,6 +1,5 @@
 {
   "name": "category",
-  //"forceId": false,
   "plural": "categories",
   "base": "PersistedModel",
   "idInjection": true,

@@ -1,6 +1,5 @@
 {
   "name": "todo",
-  //"forceId": false,
   "plural": "todos",
   "base": "PersistedModel",
   "idInjection": true,
