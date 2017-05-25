@@ -23,6 +23,11 @@
     "status": {
       "type": "string",
       "required": true
+    },
+    "created": {
+      "type": "date",
+      "required": true,
+      "default": "$now"
     }
   },
   "validations": [],

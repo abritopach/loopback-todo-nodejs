@@ -30,6 +30,9 @@
     "type": "",
     "url": ""
   },
-  "license": "UNLICENSED",
-  "description": "loopback-todo-nodejs"
+  "license": "MIT",
+  "description": "loopback-todo-nodejs",
+  "engines": {
+    "node": "6.9.1"
+  }
 }
