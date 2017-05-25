@@ -1,6 +1,6 @@
 {
   "name": "todo",
-  "forceId": false,
+  //"forceId": false,
   "plural": "todos",
   "base": "PersistedModel",
   "idInjection": true,
@@ -9,8 +9,9 @@
   },
   "properties": {
     "id": {
-      "type": "string",
-      "required": true
+      "type": "number",
+      "generated": true,
+      "id": true
     },
     "description": {
       "type": "string",

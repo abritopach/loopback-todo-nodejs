@@ -1,6 +1,6 @@
 {
   "name": "category",
-  "forceId": false,
+  //"forceId": false,
   "plural": "categories",
   "base": "PersistedModel",
   "idInjection": true,
@@ -9,8 +9,9 @@
   },
   "properties": {
     "id": {
-      "type": "string",
-      "required": true
+      "type": "number",
+      "generated": true,
+      "id": true
     },
     "name": {
       "type": "string",
